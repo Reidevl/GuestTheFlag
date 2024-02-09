@@ -9,20 +9,43 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-//        LinearGradient(stops: [
-//            .init(color: .white, location: 0.45),
-//            .init(color: .black, location: 0.55)
-//        ], startPoint: .top, endPoint: .bottom)
+//        VStack {
+//            Button("Button 1"){ }
+//                .buttonStyle(.bordered)
+//            
+//            Button("Button 2", role: .destructive){ }
+//                .buttonStyle(.bordered)
+//            
+//            Button("Button 3"){ }
+//                .buttonStyle(.borderedProminent)
+//                .tint(.indigo)
+//
+//            Button("Button 2", role: .destructive){ }
+//                .buttonStyle(.borderedProminent)
+//        }
         
-//        RadialGradient(colors: [.blue, .black], center: .center, startRadius: 20, endRadius: 200).ignoresSafeArea()
+//        Button {
+//            print("Button was tapped")
+//        } label: {
+//            Text("Tap me!")
+//                .padding()
+//                .foregroundColor(.white)
+//                .background(.red)
+//        }
         
-//        AngularGradient(colors: [.red, .yellow, .green, .blue, .purple, .red], center: .center).ignoresSafeArea()
-        
-        Text("Your content")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .foregroundColor(.white)
-            .background(.black.gradient)
-            
+        Button {
+            print("Button was tapped")
+        } label: {
+            Label("Edit", systemImage: "pencil.circle")
+                .padding()
+                .foregroundColor(.white)
+                .background(.red)
+                .opacity(0.8)
+        }
+    }
+    
+    func executeDelete() {
+        print("Now deleting...")
     }
 }
 
