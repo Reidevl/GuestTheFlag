@@ -17,5 +17,5 @@ I made some modifications in the project structure to improve it and I also hand
 
 ## References
 
-* https://www.hackingwithswift.com/100/swiftui/22
+* ![Project2 - 100 days os SwiftUI](https://www.hackingwithswift.com/100/swiftui/22)
 
