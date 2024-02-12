@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GuessTheFlagView: View {
-    @ObservedObject var viewModel: ViewModel
+    @StateObject var viewModel: ViewModel = .init()
     
     var body: some View {
         ZStack {

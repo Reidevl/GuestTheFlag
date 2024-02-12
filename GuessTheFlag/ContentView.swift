@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var viewModel: ViewModel = .init()
     
     var body: some View {
-        GuessTheFlagView(viewModel: viewModel)
+        GuessTheFlagView()
     }
 }
 
