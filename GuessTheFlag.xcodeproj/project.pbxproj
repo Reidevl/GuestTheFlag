@@ -15,6 +15,7 @@
 		EEA36B3A2B7A685000008610 /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA36B392B7A685000008610 /* FlagView.swift */; };
 		EEA36B3C2B7A687F00008610 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA36B3B2B7A687F00008610 /* ScoreView.swift */; };
 		EEA36B3E2B7A689A00008610 /* GuessTheFlagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA36B3D2B7A689A00008610 /* GuessTheFlagViewModel.swift */; };
+		EEA36B402B7A6C3200008610 /* FlagsSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA36B3F2B7A6C3200008610 /* FlagsSegment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		EEA36B392B7A685000008610 /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
 		EEA36B3B2B7A687F00008610 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		EEA36B3D2B7A689A00008610 /* GuessTheFlagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagViewModel.swift; sourceTree = "<group>"; };
+		EEA36B3F2B7A6C3200008610 /* FlagsSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsSegment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				EEA36B392B7A685000008610 /* FlagView.swift */,
 				EEA36B3B2B7A687F00008610 /* ScoreView.swift */,
 				EEA36B3D2B7A689A00008610 /* GuessTheFlagViewModel.swift */,
+				EEA36B3F2B7A6C3200008610 /* FlagsSegment.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE24A0892B76646300FD3ABC /* ContentView.swift in Sources */,
+				EEA36B402B7A6C3200008610 /* FlagsSegment.swift in Sources */,
 				EEA36B382B7A684100008610 /* GuessTheFlagView.swift in Sources */,
 				EEA36B3A2B7A685000008610 /* FlagView.swift in Sources */,
 				EE24A0872B76646300FD3ABC /* GuessTheFlagApp.swift in Sources */,

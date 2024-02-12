@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct FlagView: View {
+    
+    var country: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(country)
+            .clipShape(.capsule)
+            .shadow(radius: 5)
     }
 }
 
 #Preview {
-    FlagView()
+    FlagView(country: "Ukraine")
 }

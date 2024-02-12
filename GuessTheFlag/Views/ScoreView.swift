@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ScoreView: View {
+    var userScore: Int
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Score: \(userScore)")
+            .foregroundStyle(.white)
+            .font(.title.bold())
     }
 }
 
 #Preview {
-    ScoreView()
+    ScoreView(userScore: 1)
 }
