@@ -16,6 +16,9 @@
 		EEA36B3C2B7A687F00008610 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA36B3B2B7A687F00008610 /* ScoreView.swift */; };
 		EEA36B3E2B7A689A00008610 /* GuessTheFlagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA36B3D2B7A689A00008610 /* GuessTheFlagViewModel.swift */; };
 		EEA36B402B7A6C3200008610 /* FlagsSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA36B3F2B7A6C3200008610 /* FlagsSegment.swift */; };
+		EEA36B452B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.23.10.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA36B422B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.23.10.png */; };
+		EEA36B462B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.52.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA36B432B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.52.png */; };
+		EEA36B472B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.58.png in Resources */ = {isa = PBXBuildFile; fileRef = EEA36B442B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.58.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		EEA36B3B2B7A687F00008610 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		EEA36B3D2B7A689A00008610 /* GuessTheFlagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagViewModel.swift; sourceTree = "<group>"; };
 		EEA36B3F2B7A6C3200008610 /* FlagsSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsSegment.swift; sourceTree = "<group>"; };
+		EEA36B422B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.23.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.23.10.png"; sourceTree = "<group>"; };
+		EEA36B432B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.52.png"; sourceTree = "<group>"; };
+		EEA36B442B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.58.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 		EE24A07A2B76646300FD3ABC = {
 			isa = PBXGroup;
 			children = (
+				EEA36B412B7A807200008610 /* Resources */,
 				EE24A0852B76646300FD3ABC /* GuessTheFlag */,
 				EE24A0842B76646300FD3ABC /* Products */,
 			);
@@ -88,6 +95,16 @@
 				EEA36B3F2B7A6C3200008610 /* FlagsSegment.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EEA36B412B7A807200008610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEA36B432B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.52.png */,
+				EEA36B442B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.58.png */,
+				EEA36B422B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.23.10.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA36B452B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.23.10.png in Resources */,
+				EEA36B472B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.58.png in Resources */,
 				EE24A08E2B76646400FD3ABC /* Preview Assets.xcassets in Resources */,
+				EEA36B462B7A809100008610 /* Simulator Screenshot - iPhone 15 Pro Max - 2024-02-12 at 12.22.52.png in Resources */,
 				EE24A08B2B76646400FD3ABC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
