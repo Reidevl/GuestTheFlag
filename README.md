@@ -7,8 +7,9 @@ I made some modifications in the project structure to improve it and I also hand
 
 ## Screenshots
 
-
-
+![Main view](https://github.com/Reidevl/GuestTheFlag/blob/main/Resources/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202024-02-12%20at%2012.22.52.png)
+![Correct answer](https://github.com/Reidevl/GuestTheFlag/blob/main/Resources/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202024-02-12%20at%2012.22.58.png)
+![Incorrect answer](https://github.com/Reidevl/GuestTheFlag/blob/main/Resources/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202024-02-12%20at%2012.23.10.png)
 
 ## References
 
