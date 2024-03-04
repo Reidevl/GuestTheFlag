@@ -35,5 +35,5 @@ struct GuessTheFlagView: View {
 }
 
 #Preview {
-    GuessTheFlagView(viewModel: ViewModel.init())
+    GuessTheFlagView()
 }
