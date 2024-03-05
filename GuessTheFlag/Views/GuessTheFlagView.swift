@@ -18,7 +18,7 @@ struct GuessTheFlagView: View {
             ], center: .top, startRadius: 200, endRadius: 700)
                 .ignoresSafeArea()
             
-            FlagsSegment(countries: viewModel.countries, correctAnswer: viewModel.correctAnswer, userScore: viewModel.userScore, flagTapped: viewModel.flatTapped(_:))
+            FlagsSegment(countries: viewModel.countries, correctAnswer: viewModel.correctAnswer, userScore: viewModel.userScore, flagTapped: viewModel.flatTapped(_:), animationAmount: $viewModel.animationAmount, selectedFlag: $viewModel.selectedFlagIndex)
             
         }
         .alert(viewModel.scoreTitle, isPresented: $viewModel.showingScore) {

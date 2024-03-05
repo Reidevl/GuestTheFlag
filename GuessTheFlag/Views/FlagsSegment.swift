@@ -12,6 +12,9 @@ struct FlagsSegment: View {
     var correctAnswer: Int
     let userScore: Int
     let flagTapped: (Int) -> Void
+
+    @Binding var animationAmount: Double
+    @Binding var selectedFlag: Int?
     
     var body: some View {
         VStack {
@@ -36,6 +39,10 @@ struct FlagsSegment: View {
                         flagTapped(number)
                     } label: {
                         FlagView(country: countries[number])
+                            .opacity(selectedFlag == number ? 1 : 0.75)
+                            .blur(radius: selectedFlag != number ? 10 : 0)
+                            .animation(selectedFlag != number ? .easeOut(duration: 0.5) : nil)
+                            .rotation3DEffect(.degrees(animationAmount), axis: (x: 0, y: 1, z: 0))
                     }
                 }
             }
@@ -57,9 +64,11 @@ struct FlagsSegment: View {
 
 #Preview {
     let viewModel: ViewModel = .init()
+    let animationAmount = Binding<Double>( get: {0.0}, set: {_ in})
+    let selectedFlag = Binding<Int?>( get: {1}, set: {_ in})
     
     return Group {
-        FlagsSegment(countries: viewModel.countries, correctAnswer: viewModel.correctAnswer, userScore: viewModel.userScore, flagTapped: viewModel.flatTapped(_:))
+        FlagsSegment(countries: viewModel.countries, correctAnswer: viewModel.correctAnswer, userScore: viewModel.userScore,flagTapped: viewModel.flatTapped(_:), animationAmount: animationAmount, selectedFlag: selectedFlag)
     }
     
 }
